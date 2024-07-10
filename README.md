@@ -1,1 +1,1 @@
-This is a trial of SCGPT - test.
+Test for scGPT.
