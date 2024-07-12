@@ -1,1 +1,5 @@
 **/data
+**/test
+**/results
+*.pdf
+*.csv
