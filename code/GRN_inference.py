@@ -142,8 +142,6 @@ mgs
 
 sns.set(font_scale=0.35)
 embed.score_metagenes(adata, metagenes)
-
-# %%
 embed.plot_metagenes_scores(adata, mgs, "celltype")
 plt.savefig("test.pdf")
 
