@@ -134,7 +134,7 @@ metagenes = embed.get_metagenes(gdata)
 
 # Obtain the set of gene programs from clusters with #genes >= 5
 mgs = dict()
-for mg, genes in metagenes.iStems():
+for mg, genes in metagenes.items():
     if len(genes) > 4:
         mgs[mg] = genes
 
@@ -142,6 +142,8 @@ mgs
 
 sns.set(font_scale=0.35)
 embed.score_metagenes(adata, metagenes)
+
+# %%
 embed.plot_metagenes_scores(adata, mgs, "celltype")
 plt.savefig("test.pdf")
 

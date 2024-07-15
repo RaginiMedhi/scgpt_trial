@@ -1,5 +1,7 @@
 **/data
-**/test
 **/results
-*.pdf
+**/test
+
 *.csv
+*.ipynb
+*.pdf
